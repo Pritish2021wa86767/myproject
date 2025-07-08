@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<person>
-    <name>Pritish Mishra</name>
-    <age>25</age>
-    <email>pritish@example.com</email>
-</person>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+    <!-- Project model version, this should be set to 4.0.0 for most cases -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Group ID is usually the domain name in reverse -->
+    <groupId>com.example</groupId>
+
+    <!-- Artifact ID is the name of the project/module -->
+    <artifactId>myproject</artifactId>
+
+    <!-- Version of the project -->
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Packaging type (optional, default is jar) -->
+    <packaging>jar</packaging>
+
+    <!-- Description of the project (optional) -->
+    <name>My Project</name>
+    <description>Sample Maven Project</description>
+
+    <!-- Dependencies go here (optional, if any) -->
+
+</project>
+
